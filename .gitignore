@@ -1,0 +1,22 @@
+# Terraform local/generated files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Terraform secrets/variables
+*.tfvars
+*.tfvars.json
+
+# Keys/secrets
+*.pem
+*.key
+.env
+kubeconfig
+*.kubeconfig
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
